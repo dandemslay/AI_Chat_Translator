@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Load Assets-->
+    <link rel="stylesheet" href="./assest/css/styles.css" />
+    <script src="./assest/js/main.js" defer></script>
+    <link rel="icon" type="image/png" href="./assest/img/icon-translate.png" />
+    <title>Chat de Traducciones</title>
+</head>
+<body>
+    <header class="chat__header">
+        <img class="header__icon" src="./assest/img/icon-translate.png" alt="Icono de Traducciones" />
+        <h1 class="header__tittle">Chat de Traducciones</h1>
+    </header>
+    <section class="chat">
+        <div class="chat__messages">
+            <!-- Message Loader section-->
+        </div>
+
+        <div class="chat__input-group">
+            <input type="text" id="inputText" class="chat__input" placeholder="¿Qué quieres traducir ahora?" />
+            <div class="chat__inputs">
+                <select id="targetLang" class="chat__select">
+                    <option value="ingles">Inglés</option>
+                    <option value="espanol">Español</option>
+                    <option value="italiano">Italiano</option>
+                    <option value="frances">Frances</option>
+                    <option value="aleman">Alemán</option>
+                    <option value="japones">japones</option>
+
+                </select>
+
+                <button class="chat__button" id="translateButton">Traducir</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
